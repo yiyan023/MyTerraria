@@ -1,0 +1,422 @@
+body {
+	background-image: url('/images/background.png');
+	background-size: cover;
+	background-attachment: fixed;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+}
+
+img {
+	text-align: center;
+	border: 3px solid black;
+	border-radius: 3px;
+}
+
+.terraria{
+	border: none;
+}
+
+.right-sidebar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 260px;
+	height: 100%;
+	background-color: rgba(0, 161, 153, 0.8)
+}
+
+iframe {
+	text-align: center;
+	padding: 15px 0;
+	border: none;
+}
+
+a .links{
+	font-family: 'Patrick Hand', cursive;
+    font-size: 17px;
+}
+
+hr {
+	background-color: #4d3716;
+	width: 60%;
+	height: 3px;
+}
+
+a {
+	color: #000000;
+	text-decoration: underline;
+}
+
+p {
+	font-family: 'Nanum Pen Script', cursive;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:link {
+	color: #4d3716;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #362610;
+	text-decoration: underline;
+}
+
+a:active {
+	color: black;
+	text-decoration: underline;
+}
+
+button {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.collapsible {
+	background-color: rgba(10, 10, 10, 0);
+	font-family: 'Nanum Pen Script', cursive;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	width: 10em;
+	padding: 25px;
+	font-size: 30px;
+	
+}
+
+.collapsible:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+  
+.content {
+	padding: 0 18px;
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: rgba(0, 161, 153, 0.8)
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	color: white;
+	width: 260px;
+	height: 100%;
+	background-color: rgba(0, 161, 153, 0.8)
+}
+
+.logo-details {
+	height: 100px;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	font-family: 'Merriweather', serif;
+}
+
+.sidebar .logo-details i{
+	font-size:30px;
+	color: rgb(0, 0, 0);
+	height: 50px;
+	min-width: 78px;
+	line-height: 50px;
+	text-align: center;
+	align-items: center;
+}
+
+.sidebar .logo-details .logo_name{
+	font-size:22px;
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	text-align: center;
+}
+
+.sidebar .nav-links {
+	font-size: 50px;
+	color: white;
+	height: 50px;
+	min-width: 78px;
+	line-height: 50px;
+	text-align: center;
+	font-family: 'Nanum Pen Script', cursive;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sidebar .nav-links li:hover {
+	background: rgb(0, 161, 153);
+	transition: all 0.4s ease;
+}
+
+.sidebar .nav-links li{
+	position: relative;
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sidebar .nav-links li .icon-link{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sidebar .nav-links li i{
+	height: 50px;
+	min-width: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sidebar .nav-links li a{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+.sidebar .nav-links li a .link_name{
+	font-size:20px;
+	font-weight:400;
+	color: rgb(255, 255, 255);
+
+}
+
+.sidebar .nav-links li .sub-menu {
+	padding: 8px 10px 14px 60px;
+	margin-top: -10px;
+	background-color: rgb(0, 161, 153);
+}
+
+.sidebar .nav-links li .sub-menu a{
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	padding: 0px 0;
+	opacity: 0.6;
+	transition: all 0.3s ease;
+	width: 500%;
+}
+
+.sidebar.close .nav-links li .sub-menu {
+	position: absolute;
+	left: 100%;
+	top: -10px;
+	margin-top: 0;
+	padding: 10px 60px;
+	border-radius: 0 10px 10px 0;
+	transition: all 0.4s ease;
+	opacity:0;
+	pointer-events: none;
+}
+
+.sidebar.close .nav-links li:hover .sub-menu {
+	top:0;
+	opacity:1;
+	pointer-events: auto;
+}
+
+.sidebar .nav-links li .sub-menu .link_name{
+	display: none;
+}
+
+.sidebar.close .nav-links li .sub-menu .link_name{
+	font-size: 18px;
+	opacity: 1;
+	display: block;
+}
+.sidebar.close .nav-links li .sub-menu a{
+	color: white;
+	opacity: 100%;
+}
+
+.sidebar.close .nav-links li .sub-menu a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+.sidebar.close .nav-links li .sub-menu a:active{
+	color: white;
+	text-decoration: none;
+}
+
+#mySearch {
+	width: 150px;
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid rgb(27, 101, 114);
+	left:0;
+	font-family: 'Nanum Pen Script', cursive;
+  }
+
+  #myMenu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  #myMenu li a {
+	padding: 3px;
+	font-size:15px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	display: block;
+	width: 150px;
+  }
+  
+  #myMenu li a:hover {
+	color:#000000;
+	text-decoration: underline;
+  }
+
+.form__text {
+      color: black;
+      font-family: 'Kaisei Tokumin', serif;
+      font-size:15px;
+      cursor:pointer;
+  }
+
+  .form__text:hover {
+      text-decoration:underline;
+  }
+
+  .container {
+      width: 400px;
+      max-width: 400px;
+      margin: 1rem;
+      padding: 2rem;
+      border-radius: var (--border-radius);
+      background-color: rgba(0, 161, 153, 0.8)
+  }
+
+.form__title {
+    font-family: 'Nanum Pen Script', cursive;
+  }
+
+.form__message {
+    font-family: 'Kaisei Tokumin', serif;
+    font-size:15px;
+  }
+
+.form__input-error-message {
+    font-family: 'Kaisei Tokumin', serif;
+    font-size:15px;
+    padding: 5px;
+}
+
+.form__button {
+    font-family: 'Nanum Pen Script', cursive;
+    padding: 0.5rem 2rem;
+    border:none;
+    background-color:white;
+    font-size: 20px;
+    font-weight:bold;
+    width:100%;
+    border-radius: 4px;
+}
+
+.form__button:hover {
+    cursor:pointer;
+    text-decoration:underline;
+    background-color: #eeeeee;
+}
+
+.signupButton{
+	font-family: 'Nanum Pen Script', cursive;
+    padding: 0.5rem 2rem;
+    border:none;
+    background-color:white;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 4px;
+}
+
+.ekko {
+	font-family: 'Nanum Pen Script', cursive;
+	padding: 10px;
+	color:white;
+}
+
+.signupButton:hover {
+	cursor: pointer;
+    text-decoration:underline;
+    background-color: #eeeeee;
+}
+
+.form__input {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    display:block;
+    width:100%;
+    padding:0.75rem;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    outline:none;
+    background:#eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+
+}
+
+.form > *:first-child {
+    margin-top:0;
+
+}
+
+.form > *:last-child {
+    margin-bottom:0;
+
+}
+
+.form__input:focus {
+    border-color: rgb(0, 0, 0);
+    background-color:white;
+}
+
+.form__input--error {
+    color:rgb(255, 75, 75);
+    border-color:rgb(255, 75, 75);
+}
+
+.form__input-error-message {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color:rgb(0, 0, 0);
+}
+
+.form__button:active {
+    transform: scale(0.98);
+}
+
+
+.signupButton:active {
+    transform: scale(0.98);
+}
+
+.form--hidden {
+    display: none;
+}
