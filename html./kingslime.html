@@ -1,0 +1,298 @@
+<head>
+    <link rel="stylesheet" href="/css/kingslime.css">
+    <link rel="icon" href="/images/Copper_Axe.png">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>King Slime</title>
+
+</head>
+
+<body>
+
+    <div class="right-sidebar">
+    </div>
+
+    <div class="sidebar close">
+        <div class="logo-details">
+            <i class='bx bxl-steam' style='color:#ffffff'></i>
+            <span class="logo_name">Terraria</span>
+
+        </div>
+
+        <ul class="nav-links">
+            <li>
+                <a href="/login/login.php">
+                    <i class='bx bxs-arrow-to-right' style='color:#ffffff'></i></i>
+                    <span class="link_name">Sign Out</span>
+                </a>
+            </li>
+            <li>
+                <a href="/login/profile.php">
+                    <i class='bx bx-user-circle' style='color:#ffffff'></i>
+                    <span class="link_name">Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="/login/index.php">
+                    <i class='bx bx-grid-alt' style='color:#ffffff'></i>
+                    <span class="link_name">Home</span>
+                </a>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <i class='bx bxs-help-circle' style='color:#ffffff'></i>
+                        <span class="link_name">Guide</span>
+                        <i class='bx bx-chevrons-down' style='color:rgb(255, 255, 255)'></i>
+                    </a>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="theStart.html">The Start</a></li>
+                    <li><a href="#">Prehard Mode</a></li>
+                    <li><a href="#">Hard Mode</a></li>
+                    <li><a href="#">Journey Mode</a></li>
+                    <li><a href="#">Expert Mode</a></li>
+                    <li><a href="#">Endgame</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <i class='bx bxs-checkbox-checked' style='color:#ffffff'></i>
+                        <span class="link_name">Basics</span>
+                        <i class='bx bx-chevrons-down' style='color:#ffffff'></i>
+                    </a>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="bosses.html">Bosses</a></li>
+                    <li><a href="#">Tools</a></li>
+                    <li><a href="#">Materials</a></li>
+                    <li><a href="#">Houses</a></li>
+                    <li><a href="#">NPCs</a></li>
+                    <li><a href="#">Enemies</a></li>
+                    <li><a href="#">Crafting</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <i class='bx bxs-group' style='color:#ffffff'></i>
+                        <span class="link_name">Find Friends</span>
+                    </a>
+
+                    <ul class="sub-menu">
+                        <li><a href="contacts.html">Add Contact</a></li>
+                        <li><a href="results.html">Find Friends</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <i class='bx bx-search-alt-2' style='color:#ffffff'></i>
+                        <span class="link_name">Search</span>
+                        <i class='bx bx-chevrons-down' style='color:#ffffff'></i>
+                    </a>
+                    <ul class="sub-menu">
+                        <div class="left">
+                            <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+                            <ul id="myMenu">
+                              <li><a href="theStart.html">The Start</a></li>
+                              <li><a href="#">Bosses</a></li>
+                              <li><a href="#">Pre-hard mode</a></li>
+                              <li><a href="#">Weapons</a></li>
+                              <li><a href="#">Tools</a></li>
+                              <li><a href="#">Hard mode</a></li>
+                              <li><a href="#">Expert Mode</a></li>
+                              <li><a href="#">Journey Mode</a></li>
+                              <li><a href="#">Endgame</a></li>
+                              <li><a href="#">Materials</a></li>
+                              <li><a href="#">Houses</a></li>
+                              <li><a href="#">NPCs</a></li>
+                              <li><a href="#">Enemies</a></li>
+                              <li><a href="#">Crafting</a></li>
+                              <li><a href="#">Contacts</a></li>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="kingslime.html">King Slime</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <h1>King Slime</h1>
+    <img class="slime"src="/images/King_Slime.gif" style="border:none;">
+
+    <button class="collapsible">How to Spawn</button>
+    <div class="content">
+        <p>King Slime can be manually summoned at any place using the <b>Slime Crown.</b></p>
+        <p>Crafting King Slime requires a <b>Gold</b> or <b>Platinum crown</b> (depending on what materials your world spawns) and <b>twenty gel </b>at a <b> Demon </b>or <b>Crimson altar</b>. Gel can be dropped by defeating slimes.</p>
+        <center>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Materials needed</th>
+                    <th>Crafting Station</th>
+                </tr>
+                <tr>
+                    <td>Slime Crown  <img class="gold" src="/images/Slime_Crown.png"></td>
+                    <td><p class="cell">Platinum or Gold Crown <img class="gold"src="/images/Gold_Crown.png">  <img class="gold" src="/images/Platinum_Crown.png"></p>
+                        <p class="cell">20 gel  <img class="gold" src="/images/Gel.png"></p></td>
+                        <td><p class="cell">Demon or Crimson Altar</p> <img class="gold" src="/images/Demon_Altar.png">  <img class="gold" src="/images/Crimson_Altar.png"></td>
+                </tr>
+                <tr>
+                    <td>Gold Crown  <img class="gold"src="/images/Gold_Crown.png"></td>
+                    <td><p class="cell">5 gold bars <img class="gold" src="/images/Gold_Bar.png"></p>
+                        <p class="cell">1 ruby  <img class="gold" src="/images/Ruby.png"></p></td>
+                        <td><p class="cell">Iron or Lead Anvil</p> <img class="gold" src="/images/Iron_Anvil.png"> <img class="gold" src="/images/Lead_Anvil.png"></td>
+                </tr>
+                <tr>
+                    <td>Platinum Crown  <img class="gold" src="/images/Platinum_Crown.png"></td>
+                    <td><p class="cell">5 platinum bars <img class="gold" src="/images/Platinum_Bar.png"></p>
+                        <p class="cell">1 ruby  <img class="gold" src="/images/Ruby.png"></p></td>
+                    <td><p class="cell">Iron or Lead Anvil</p> <img class="gold" src="/images/Iron_Anvil.png"> <img class="gold" src="/images/Lead_Anvil.png"></td>
+                </tr>
+    
+            </table>
+        </center>
+    </div>
+
+    <button class="collapsible">Drops</button>
+    <div class="content">
+        <center>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Drop Rate</th>
+                </tr>
+                <tr>
+                    <td><p class="cell">1 Gold</p></td>
+                    <td><p class="cell">100%</p></td>
+                </tr>
+                <tr>
+                    <td><div class="tooltip1">Solidifier  <img class="gold" src="/images/Solidifier.png">
+                            <span class="tooltiptext"><u>The Solidifier</u> is a themed crafting station designed to craft items and furniture related to slime.</span>
+                    </div></td>
+                        <td><p class="cell">100%</p></td>
+                </tr>
+                <tr>
+                    <td><div class="tooltip">Slimy Saddle  <img class="gold" src="/images/Slimy_Saddle.png">
+                        <span class="tooltiptext"><u>The Slimy Saddle</u> is mount-summoning item that spawns a Slime Mount.</span>
+                    </div></td>
+                    <td><p class="cell">25%</p></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-decoration: underline;font-weight: bold;">One of the three items will be dropped:</td>
+                </tr>
+                <tr>
+                    <td><div class="tooltip">Ninja Hood  <img class="gold" src="/images/Ninja_Hood.png">
+                        <span class="tooltiptext"><u>The Ninja Hood</u> is a part of the Ninja armor set and gives 2 defense. A full set of ninja armor gives 3% increased critical strike chance.</span>
+                    </div></td>
+                    <td><p class="cell">1/3</p></td>
+                </tr>
+                <tr>
+                    <td><div class="tooltip">Ninja Shirt  <img class="gold" src="/images/Ninja_Shirt.png">
+                        <span class="tooltiptext"><u>The Ninja Shirt</u> is a part of the Ninja armor set and gives 4 defense. A full set of ninja armor gives 3% increased critical strike chance.</span>
+                    </div></td>
+                    <td><p class="cell">1/3</p></td>
+                </tr>
+                <tr>
+                    <td><div class="tooltip">Ninja Pants  <img class="gold" src="/images/Ninja_Pants.png">
+                        <span class="tooltiptext"><u>The Ninja Pants</u> is a part of the Ninja armor set and gives 3 defense. A full set of ninja armor gives 3% increased critical strike chance.</span>
+                    </div></td>
+                    <td><p class="cell">1/3</p></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-decoration: underline;font-weight: bold;">Two of the five items will be dropped:</td>
+                </tr>
+                <tr>
+                    <td><div class="tooltip">Slime Hook  <img class="gold" src="/images/Slime_Hook.png">
+                        <span class="tooltiptext"><u>The Slime Hook</u> is a hook that helps players travel around the map faster by grabbing onto trees, terrain and buildings.</span>
+                    </div></td>
+                    <td><p class="cell">1/3</p></td>
+                </tr>
+                <tr>
+                    <td><div class="tooltip">Slime Gun  <img class="gold" src="/images/Slime_Gun.png">
+                        <span class="tooltiptext"><u>The Slime Gun</u> shoots slime, which slows your allies.</span>
+                    </div></td>
+                    <td><p class="cell">2/3</p></td>
+                </tr>
+                <tr>
+                    <td><div class="tooltip2">Lesser Healing Potion (5-15)  <img class="gold" src="/images/Lesser_Healing_Potion.png">
+                        <span class="tooltiptext"><u>Lesser Healing Potions</u> heal you for 50 health when activated. Generally used during pre-hard mode battles.</span>
+                    </div></td>
+                    <td><p class="cell">100%</p></td>
+                </tr>
+                <tr>
+                    <td><div class="tooltip2">King Slime Mask  <img class="gold" src="/images/King_Slime_Mask.png">
+                        <span class="tooltiptext"><u>The King Slime Mask</u> is a vanity item for cosmetic purposes.</span>
+                    </div></td>
+                    <td><p class="cell">1/7</p></td>
+                </tr>
+                <tr>
+                    <td><div class="tooltip2">King Slime Trophy  <img class="gold" src="/images/King_Slime_Trophy.png">
+                        <span class="tooltiptext"><u>The King Slime Trophy</u> is a decorative furniture item that marks your victory against King Slime.</span>
+                    </div></td>
+                    <td><p class="cell">1/10</p></td>
+                </tr>
+            </table>
+        </center>
+
+        &nbsp;&nbsp;
+		&nbsp;&nbsp;
+    </div> 
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+
+    <button class="collapsible">The Fight</button>
+    <div class="content">
+        <p><b>Recommended Weapons:</b></p>
+        <p>A ranged weapon, recommended Silver or Platinum bow with Frostburn or Flaming arrows. Since King Slime is slower, getting boots helps you distance yourself from him, letting you deal damage while staying safe.
+            Furthermore, using a long platform to run on so you can kite out King Slime is ideal. 
+            If you have a lot of wood platforms, you can also set up an arena to run around, but you can run around in your world as shown in this video.</p>
+
+        <center><iframe width="500" height="300" src="https://www.youtube.com/embed/mhM_66jNOVQ"></iframe></center>   
+    </div> 
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+
+        function myFunction() {
+              var input, filter, ul, li, a, i;
+            input = document.getElementById("mySearch");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myMenu");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+                } else {
+                li[i].style.display = "none";
+                }
+              }
+            }
+    </script>
+
+    </body>
