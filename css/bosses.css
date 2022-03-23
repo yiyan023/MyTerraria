@@ -1,0 +1,506 @@
+body {
+    background-color: rgba(0, 161, 153, 0.5);
+}
+
+img {
+	text-align: center;
+	border: 3px solid black;
+	border-radius: 3px;
+}
+
+.terraria{
+	border: none;
+}
+
+.right-sidebar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 260px;
+	height: 100%;
+    background-image: url('/images/background.png');
+}
+
+iframe {
+	text-align: center;
+	padding: 15px 0;
+	border: none;
+}
+
+a .links{
+	font-family: 'Patrick Hand', cursive;
+    font-size: 17px;
+}
+
+p {
+	text-align: justify;
+	color: black;
+	font-family: 'Kaisei Tokumin', serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	font-size: 13px;
+}
+
+.char-difficulty .character_difficulty {
+	text-align: justify;
+	color: black;
+	font-family: 'Kaisei Tokumin', serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	font-size: 13px;
+}
+
+.inventory .special-slots {
+	text-align: justify;
+	color: black;
+	font-family: 'Kaisei Tokumin', serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	font-size: 13px;
+}
+
+
+.world-sizes .world_sizes {
+	text-align: justify;
+	color: black;
+	font-family: 'Kaisei Tokumin', serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	font-size: 13px;
+}
+
+.world-difficulty .world_difficulty {
+	text-align: justify;
+	color: black;
+	font-family: 'Kaisei Tokumin', serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	font-size: 13px;
+}
+
+.world-evil .world_evil {
+	text-align: justify;
+	color: black;
+	font-family: 'Kaisei Tokumin', serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	font-size: 13px;
+}
+
+.movement .controls {
+	text-align: justify;
+	color: black;
+	font-family: 'Kaisei Tokumin', serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	font-size: 13px;
+}
+
+.starting_weapons .starting-weapons {
+	text-align: justify;
+	color: black;
+	font-family: 'Kaisei Tokumin', serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	font-size: 13px;
+	line-height: 1pt;
+	list-style-image: url('/images/Copper_Shortsword.png');
+}
+
+.starting_weapons .starting-weapons2 {
+	text-align: justify;
+	color: black;
+	font-family: 'Kaisei Tokumin', serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	font-size: 13px;
+	line-height: 1pt;
+	list-style-image: url('/images/Copper_Pickaxe.png');
+}
+
+.starting-game .starting_game {
+	text-align: justify;
+	color: black;
+	font-family: 'Kaisei Tokumin', serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	font-size: 13px;
+}
+
+.starting_weapons .starting-weapons3 {
+	text-align: justify;
+	color: black;
+	font-family: 'Kaisei Tokumin', serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	font-size: 13px;
+	line-height: 1pt;
+	list-style-image: url('/images/Copper_Axe.png');
+}
+
+hr {
+	background-color: #4d3716;
+	width: 60%;
+	height: 3px;
+}
+
+a {
+	color: #000000;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:link {
+	color: #4d3716;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #362610;
+	text-decoration: underline;
+}
+
+a:active {
+	color: black;
+	text-decoration: underline;
+}
+
+button {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.collapsible {
+	background-color: rgba(10, 10, 10, 0);
+	font-family: 'Nanum Pen Script', cursive;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	width: 10em;
+	padding: 25px;
+	font-size: 30px;
+	
+}
+
+.collapsible2 {
+	font-family: 'Kaisei Tokumin', serif;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	width: 20em;
+	padding: 25px;
+	font-size: 15px;
+    background-color: rgba(10, 10, 10, 0);
+}
+
+table {
+    text-align:center;
+    padding:10px;
+}
+
+td {
+    font-family: 'Kaisei Tokumin', serif;
+    padding: 20px;
+    color:white;
+}
+
+.table {
+    background-color: rgba(0, 161, 153, 0.7);
+    color:rgb(0, 0, 0);
+    font-family: 'Kaisei Tokumin', serif;
+    text-align: center;
+    padding:20px;
+    width:110px;
+    font-weight: bold;
+}
+
+.table2 {
+    background-color: rgba(143, 0, 187, 0.5);
+    color:rgb(0, 0, 0);
+    font-family: 'Kaisei Tokumin', serif;
+    text-align: center;
+    padding:20px;
+    width:110px;
+    font-weight: bold;
+}
+
+.table3 {
+    background-color: rgba(194, 37, 37, 0.6);
+    color:rgb(0, 0, 0);
+    font-family: 'Kaisei Tokumin', serif;
+    text-align: center;
+    padding:20px;
+    width:110px;
+    font-weight: bold;
+}
+
+.collapsible:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.collapsible:active {
+	transform: scale(0.95);
+}
+
+.collapsible2:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.collapsible2:active {
+	transform: scale(0.95);
+}
+  
+.content {
+    padding: 0 18px;
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-image: url('/images/terraria2.png');
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+.content2 {
+    padding: 0 18px;
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-image: url('/images/corruption.png');
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+.content3 {
+    padding: 0 18px;
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-image: url('/images/crimson.png');
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	color: white;
+	width: 260px;
+	height: 100%;
+	background-image: url('/images/background.png');
+}
+
+.logo-details {
+	height: 100px;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	font-family: 'Merriweather', serif;
+}
+
+.sidebar .logo-details i{
+	font-size:30px;
+	color: rgb(0, 0, 0);
+	height: 50px;
+	min-width: 78px;
+	line-height: 50px;
+	text-align: center;
+	align-items: center;
+}
+
+.sidebar .logo-details .logo_name{
+	font-size:22px;
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	text-align: center;
+}
+
+.sidebar .nav-links {
+	font-size: 50px;
+	color: white;
+	height: 50px;
+	min-width: 78px;
+	line-height: 50px;
+	text-align: center;
+	font-family: 'Nanum Pen Script', cursive;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sidebar .nav-links li:hover {
+	background: rgb(0, 161, 153);
+	transition: all 0.4s ease;
+}
+
+.sidebar .nav-links li{
+	position: relative;
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sidebar .nav-links li .icon-link{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sidebar .nav-links li i{
+	height: 50px;
+	min-width: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sidebar .nav-links li a{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+.sidebar .nav-links li a .link_name{
+	font-size:20px;
+	font-weight:400;
+	color: rgb(255, 255, 255);
+
+}
+
+.sidebar .nav-links li .sub-menu {
+	padding: 8px 10px 14px 60px;
+	margin-top: -10px;
+	background-color: rgb(0, 161, 153);
+}
+
+.sidebar .nav-links li .sub-menu a{
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	padding: 0px 0;
+	opacity: 0.6;
+	transition: all 0.3s ease;
+	width: 500%;
+}
+
+.sidebar.close .nav-links li .sub-menu {
+	position: absolute;
+	left: 100%;
+	top: -10px;
+	margin-top: 0;
+	padding: 10px 60px;
+	border-radius: 0 10px 10px 0;
+	transition: all 0.4s ease;
+	opacity:0;
+	pointer-events: none;
+}
+
+.sidebar.close .nav-links li:hover .sub-menu {
+	top:0;
+	opacity:1;
+	pointer-events: auto;
+}
+
+.sidebar .nav-links li .sub-menu .link_name{
+	display: none;
+}
+
+.sidebar.close .nav-links li .sub-menu .link_name{
+	font-size: 18px;
+	opacity: 1;
+	display: block;
+}
+.sidebar.close .nav-links li .sub-menu a{
+	color: white;
+	opacity: 100%;
+}
+
+.sidebar.close .nav-links li .sub-menu a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+.sidebar.close .nav-links li .sub-menu a:active{
+	color: white;
+	text-decoration: none;
+}
+
+#mySearch {
+	width: 150px;
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid rgb(27, 101, 114);
+	left:0;
+	font-family: 'Nanum Pen Script', cursive;
+  }
+
+  #myMenu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  #myMenu li a {
+	padding: 3px;
+	font-size:15px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	display: block;
+	width: 150px;
+  }
+  
+  #myMenu li a:hover {
+	color:#000000;
+	text-decoration: underline;
+  }
+
+  .hover:hover {
+    transform: scale(1.2);
+	cursor:pointer;
+  }
